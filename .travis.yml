@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "stable"
+
+build:
+  - npm run build
+
+deploy:
+  - npm run deploy
+    
