@@ -4,7 +4,4 @@ node_js:
 
 build:
   - npm run build
-
-script:
-  - npm run deploy
     
