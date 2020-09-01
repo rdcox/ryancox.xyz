@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Header from './component/Header';
 import PageLink from './component/PageLink';
 import PageContent from './component/PageContent';
@@ -16,6 +15,8 @@ ReactDOM.render(
     <PageLink text="Running" link=""></PageLink>
     <PageLink text="CV" link=""></PageLink>
     <PageLink text="HackerRank" link="https://www.hackerrank.com/rdcox"></PageLink>
+    <PageContent></PageContent>
+    <PageContent></PageContent>
   </React.StrictMode>,
   document.getElementById('root')
 );

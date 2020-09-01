@@ -5,9 +5,7 @@ import "./PageContent.css";
 export default class PageContent extends React.Component {
     render() {
         return (
-            <img 
-            
-            />
+            <p>Insert Some Content Here</p>
         );
     }
 }
