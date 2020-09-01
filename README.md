@@ -1,4 +1,4 @@
-[![TravisCI](https://travis-ci.org/rdcox/ryancox.xyz.svg?branch=master)](https://travis-ci.org/github/rdcox/ryancox.xyz)
+![TravisCI](https://travis-ci.org/rdcox/ryancox.xyz.svg?branch=master)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
