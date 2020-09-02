@@ -11,7 +11,6 @@ deploy:
   bucket: 'ryancox.xyz'
   local-dir: ryancox.xyz
   upload-dir: "./build/"
-  acl: public_read_write
   on:
     repo: rdcox/ryancox.xyz
   skip_cleanup: 'true'
