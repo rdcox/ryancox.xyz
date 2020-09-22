@@ -9,8 +9,7 @@ deploy:
   secret_access_key:
     secure: d3SUQpjtgY6h0TXq3VfEkjzrkNyDTjRoiW8IkArEX9lyyqQ0sBWHlyWLAib3VQAl04Fc3Z7/YppBTA3qtL4x+3hhE2lcHBJh+35fTOaT/sK/02GoMXM2rX8l4GdS19iiLo83D1Y6IGjvD7FK6A67zihTgwAKjR9AFnqbirshCkWLfeHdsrcyrtB4l3exuxke10jJ0vCDlN+xJbDcuvIYYpjOYZWefaCr+FQWdPGzZcgnncP5PVI5TQqfzgQSSDR/JOHl2PvCXyCu5hxkA9+Q10s9xTP+ROAxyxGLZO8MdCvX9+WTDmkEj6X96ZLbyD9QP4op6+R06KxFEU2iqMufhU8O7W2XpzmKCCTDJ/RytCTBXTnX9g8pay/8VkWg5oCmnn3mk2xww67Yn2LfOqpo8gN6vGtuFvUfQfvbr5RonGmG5X+Y/LOp7LAzLJanS5K3jJebdQ8apVqJNUWK0kkyJ8oP0W39kmQaSt95sN8vyQOKZMUx7UW9Fh2G+uQMozou69N4U2PUsqmgySAawuJDfhai+iyEkuIQrIxjwJ5Fpd9AWkx9TUSkfYiZcCV3Pwx531EX3JDCoD2xPSuEroRIDCKhNvLdz2e4lGfxE5q2VKNRMUTP0bmVNv3M2xgLLe+MIBtinh2GbGKomlQ6JWq2XGbSEI8C7zqdF0/t9ah8UIs=
   bucket: 'ryancox.xyz'
-  local-dir: /home/travis/build/rdcox/ryancox.xyz
-  upload-dir: "/home/travis/build/rdcox/ryancox.xyz/build"
+  local-dir: ./build
   acl: public_read
   on:
     repo: rdcox/ryancox.xyz
