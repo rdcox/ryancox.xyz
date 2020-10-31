@@ -6,3 +6,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #008080;
 }
+
+.pagelinks {
+  padding-top: 20px;
+  font-size: large;
+}

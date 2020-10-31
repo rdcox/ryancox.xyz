@@ -8,15 +8,16 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header text="Howdy"></Header>
-    <PageLink text="Kaggle" link="https://www.kaggle.com/ryancox"></PageLink>
-    <PageLink text="Github" link="https://github.com/rdcox"></PageLink>
-    <PageLink text="Resume" link=""></PageLink>
-    <PageLink text="Running" link=""></PageLink>
-    <PageLink text="CV" link=""></PageLink>
-    <PageLink text="HackerRank" link="https://www.hackerrank.com/rdcox"></PageLink>
+    <Header text="Howdy!"></Header>
     <PageContent></PageContent>
-    <PageContent></PageContent>
+    <div className="pagelinks">
+      <PageLink text="Kaggle" link="https://www.kaggle.com/ryancox"></PageLink>
+      <PageLink text="Github" link="https://github.com/rdcox"></PageLink>
+      <PageLink text="Resume" link=""></PageLink>
+      <PageLink text="Running" link=""></PageLink>
+      <PageLink text="CV" link=""></PageLink>
+      <PageLink text="HackerRank" link="https://www.hackerrank.com/rdcox"></PageLink>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
