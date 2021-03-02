@@ -6,17 +6,20 @@ import PageLink from './component/PageLink';
 import PageContent from './component/PageContent';
 import * as serviceWorker from './serviceWorker';
 
+// TODO: Add Resume page
+// TODO: Add Running page
 ReactDOM.render(
   <React.StrictMode>
     <Header text="Howdy!"></Header>
     <PageContent></PageContent>
     <div className="pagelinks">
-      <PageLink text="Kaggle" link="https://www.kaggle.com/ryancox"></PageLink>
       <PageLink text="Github" link="https://github.com/rdcox"></PageLink>
       <PageLink text="Resume" link=""></PageLink>
-      <PageLink text="Running" link=""></PageLink>
-      <PageLink text="CV" link=""></PageLink>
+      <PageLink text="LinkedIn" link="https://www.linkedin.com/in/ryan-cox-81228191/"></PageLink>
+      <PageLink text="Twitter" link="https://twitter.com/BonziBu99067986"></PageLink>
+      <PageLink text="Kaggle" link="https://www.kaggle.com/ryancox"></PageLink>
       <PageLink text="HackerRank" link="https://www.hackerrank.com/rdcox"></PageLink>
+      <PageLink text="Running" link=""></PageLink>
     </div>
   </React.StrictMode>,
   document.getElementById('root')
