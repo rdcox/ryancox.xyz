@@ -12,9 +12,7 @@ import * as serviceWorker from './serviceWorker';
 // TODO: Add Running page
 ReactDOM.render(
   <React.StrictMode>
-    <div>
-      <Header text="Howdy!"></Header>
-    </div>
+    <Header text="Howdy!"></Header>
     
     <div className="page-content">
       <div className="image-card-container">

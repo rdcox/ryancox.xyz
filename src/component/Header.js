@@ -6,10 +6,10 @@ export default class Header extends React.Component {
 
     render() {
         return (
-            <div className="component-header">
-                <header>
+            <div className="component-header wordart purple">
+                <span className="text">
                     {this.props.text}
-                </header>
+                </span>
             </div>
         );
     }
