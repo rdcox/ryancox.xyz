@@ -23,40 +23,14 @@ ReactDOM.render(
       </div>
     </div>
     
-    <div className="table-container">
-      <table className="table-bordered">
-        <thead>
-          <tr>
-            <th>
-              Links
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <PageLink text="Github" link="https://github.com/rdcox"></PageLink>
-            </td>
-            <td>
-              <PageLink text="Resume" link=""></PageLink>
-            </td>
-            <td>
-              <PageLink text="LinkedIn" link="https://www.linkedin.com/in/ryan-cox-81228191/"></PageLink>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <PageLink text="Kaggle" link="https://www.kaggle.com/ryancox"></PageLink>
-            </td>
-            <td>
-              <PageLink text="Twitter" link="https://twitter.com/BonziBu99067986"></PageLink>
-            </td>
-            <td>
-              <PageLink text="HackerRank" link="https://www.hackerrank.com/rdcox"></PageLink>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div className="project">
+      <img src="https://i.pinimg.com/originals/3b/d9/79/3bd979216dc79eb5fef530ced89f9e06.gif" alt="this slowpoke moves"></img>
+    </div>
+    <div className="project">
+      <img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"></img>
+    </div>
+    <div className="project">
+      <img src="https://i.pinimg.com/originals/3b/d9/79/3bd979216dc79eb5fef530ced89f9e06.gif" alt="construction"></img>
     </div>
   </React.StrictMode>,
   document.getElementById('root')

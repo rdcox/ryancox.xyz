@@ -11,12 +11,19 @@
     text-align: justify;
 }
 
+.text-card-container table{
+    width: 100%;
+}
+
 .image-card-container{
     float: left;
 }
 
-.table-container{
-    margin-right: 5%;
+.project{
+    height: 750px;
+    width: auto;
+    margin-top: 1000px;
     margin-left: 5%;
-    display: inline-block;
+    margin-right: 5%;
 }
+
