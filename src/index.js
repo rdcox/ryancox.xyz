@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './assets/win95.css'
 import './index.css'
 import Header from './component/Header';
-import PageLink from './component/PageLink';
 import ImageCard from './component/ImageCard';
 import TextCard from './component/TextCard';
 import * as serviceWorker from './serviceWorker';
