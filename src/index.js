@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './assets/win95.css'
 import Header from './component/Header';
 import PageLink from './component/PageLink';
 import PageContent from './component/PageContent';
