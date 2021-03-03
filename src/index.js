@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/win95.css'
+import './index.css'
 import Header from './component/Header';
 import PageLink from './component/PageLink';
 import ImageCard from './component/ImageCard';
@@ -11,18 +12,53 @@ import * as serviceWorker from './serviceWorker';
 // TODO: Add Running page
 ReactDOM.render(
   <React.StrictMode>
-    <Header text="Howdy!"></Header>
-    <ImageCard></ImageCard>
-    <br></br>
-    <TextCard></TextCard>
-    <div className="pagelinks">
-      <PageLink text="Github" link="https://github.com/rdcox"></PageLink>
-      <PageLink text="Resume" link=""></PageLink>
-      <PageLink text="LinkedIn" link="https://www.linkedin.com/in/ryan-cox-81228191/"></PageLink>
-      <PageLink text="Twitter" link="https://twitter.com/BonziBu99067986"></PageLink>
-      <PageLink text="Kaggle" link="https://www.kaggle.com/ryancox"></PageLink>
-      <PageLink text="HackerRank" link="https://www.hackerrank.com/rdcox"></PageLink>
-      <PageLink text="Running" link=""></PageLink>
+    <div>
+      <Header text="Howdy!"></Header>
+    </div>
+    
+    <div className="page-content">
+      <div className="image-card-container">
+        <ImageCard></ImageCard>
+      </div>
+      <div className="text-card-container">      
+        <TextCard></TextCard>
+      </div>
+    </div>
+    
+    <div className="table-container">
+      <table className="table-bordered">
+        <thead>
+          <tr>
+            <th>
+              Links
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <PageLink text="Github" link="https://github.com/rdcox"></PageLink>
+            </td>
+            <td>
+              <PageLink text="Resume" link=""></PageLink>
+            </td>
+            <td>
+              <PageLink text="LinkedIn" link="https://www.linkedin.com/in/ryan-cox-81228191/"></PageLink>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <PageLink text="Kaggle" link="https://www.kaggle.com/ryancox"></PageLink>
+            </td>
+            <td>
+              <PageLink text="Twitter" link="https://twitter.com/BonziBu99067986"></PageLink>
+            </td>
+            <td>
+              <PageLink text="HackerRank" link="https://www.hackerrank.com/rdcox"></PageLink>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </React.StrictMode>,
   document.getElementById('root')

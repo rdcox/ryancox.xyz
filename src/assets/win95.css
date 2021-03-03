@@ -606,6 +606,7 @@ TABLES
 */
 .table{
     background: white;
+    background-color: #c0c0c0;
     border-color: #c0c0c0;
 }
 .table-bordered{
@@ -618,4 +619,5 @@ TABLES
     padding: .75rem;
     vertical-align: top;
     border-top: 1px solid #c0c0c0;
+    background-color: #c0c0c0;
 }

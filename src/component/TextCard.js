@@ -6,6 +6,7 @@ export default class TextCard extends React.Component {
             <div className="card">
                 <div className="card-header">
                     About me
+                    <button type="button" className="btn" aria-label="Close"><span>x</span></button>
                 </div>
                 <div className="card-body">
                     <p>
